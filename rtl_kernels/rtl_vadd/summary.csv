@@ -1,0 +1,175 @@
+Profile Summary
+Generated on: 2023-06-04 18:27:43
+Msec since Epoch: 1685896063986
+Profiled application: rtl_vadd
+Target platform: Xilinx
+Tool version: 2022.1
+XRT build version: 2.13.479
+Build version branch: 2022.1
+Build version hash: 5e92a513c6950e79638b1a879ddb882da34fc683
+Build version date: N/A
+Target devices: xilinx_u280_gen3x16_xdma_base_1-0
+Flow mode: System Run
+
+OpenCL API Calls
+API Name,Number Of Calls,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),
+clCreateBuffer,3,0.087012,0.016291,0.029004,0.052941,
+clCreateCommandQueue,1,0.01798,0.01798,0.01798,0.01798,
+clCreateContext,1,68.7469,68.7469,68.7469,68.7469,
+clCreateKernel,1,1.34124,1.34124,1.34124,1.34124,
+clCreateProgramWithBinary,1,5910.14,5910.14,5910.14,5910.14,
+clEnqueueMigrateMemObjects,2,0.3416,0.005111,0.1708,0.336489,
+clEnqueueTask,1,0.099132,0.099132,0.099132,0.099132,
+clFinish,1,0.39364,0.39364,0.39364,0.39364,
+clGetDeviceIDs,2,0.00443,0.00131,0.002215,0.00312,
+clGetDeviceInfo,2,9.35715,0.0028,4.67858,9.35435,
+clGetExtensionFunctionAddress,2,0.020511,0.00353,0.0102555,0.016981,
+clGetExtensionFunctionAddressForPlatform,2,0.00536,0.00147,0.00268,0.00389,
+clGetPlatformInfo,14,0.01486,0.00085,0.00106143,0.00225,
+clReleaseCommandQueue,1,12.0083,12.0083,12.0083,12.0083,
+clReleaseContext,1,0.0032,0.0032,0.0032,0.0032,
+clReleaseDevice,5,0.015582,0.002021,0.0031164,0.005211,
+clReleaseKernel,1,0.290237,0.290237,0.290237,0.290237,
+clReleaseMemObject,9,0.022849,0.00185,0.00253878,0.00335,
+clReleaseProgram,1,0.003701,0.003701,0.003701,0.003701,
+clRetainDevice,5,0.00794,0.00104,0.001588,0.00312,
+clRetainMemObject,6,0.01431,0.0019,0.002385,0.0033,
+clSetKernelArg,4,0.022741,0.0023,0.00568525,0.01103,
+
+Kernel Execution
+Kernel,Number Of Enqueues,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),
+krnl_vadd_rtl,1,0.182205,0.182205,0.182205,0.182205,
+
+Top Kernel Execution
+Kernel Instance Address,Kernel,Context ID,Command Queue ID,Device,Start Time (ms),Duration (ms),Global Work Size,Local Work Size,
+35954256,krnl_vadd_rtl,0,0,xilinx_u280_gen3x16_xdma_base_1-0,10271.1,0.182205,1:1:1,1:1:1,
+
+Top Memory Writes: Host to Global Memory
+Buffer Address,Context ID,Command Queue ID,Start Time (ms),Duration (ms),Buffer Size (KB),Writing Rate(MB/s),
+0,0,0,10270.9,0.076452,2.048,26.7881,
+
+Top Memory Reads: Host to Global Memory
+Buffer Address,Context ID,Command Queue ID,Start Time (ms),Duration (ms),Buffer Size (KB),Reading Rate(MB/s),
+8192,0,0,10271.3,0.050191,1.024,20.4021,
+
+Data Transfer: Host to Global Memory
+Context:Number of Devices,Transfer Type,Number Of Buffer Transfers,Transfer Rate (MB/s),Average Bandwidth Utilization (%),Average Buffer Size (KB),Total Time (ms),Average Time (ms),
+context0:1,READ,1,20.4021,0.129505,1.024,0.050191,0.050191,
+context0:1,WRITE,1,26.7881,0.170041,2.048,0.076452,0.076452,
+
+Compute Unit Utilization
+Device,Compute Unit,Kernel,Global Work Size,Local Work Size,Number Of Calls,Dataflow Execution,Max Overlapping Executions,Dataflow Acceleration,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),Clock Frequency (MHz),
+
+
+
+
+
+
+
+
+
+Guidance Parameters
+Parameter,Element,Value,
+DEVICE_EXEC_TIME,xilinx_u280_gen3x16_xdma_base_1-0,0.182205,
+NUM_MONITORS,xilinx_u280_gen3x16_xdma_base_1-0|XCL_PERF_MON_MEMORY|0,0,
+NUM_MONITORS,xilinx_u280_gen3x16_xdma_base_1-0|XCL_PERF_MON_ACCEL|0,0,
+NUM_MONITORS,xilinx_u280_gen3x16_xdma_base_1-0|XCL_PERF_MON_STR|0,0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[0],1,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[1],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[2],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[3],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[4],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[5],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[6],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[7],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[8],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[9],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[10],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[11],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[12],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[13],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[14],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[15],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[16],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[17],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[18],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[19],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[20],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[21],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[22],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[23],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[24],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[25],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[26],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[27],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[28],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[29],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[30],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HBM[31],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|DDR[0],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|DDR[1],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|PLRAM[0],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|PLRAM[1],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|PLRAM[2],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|PLRAM[3],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|PLRAM[4],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|PLRAM[5],0,
+MEMORY_USAGE,xilinx_u280_gen3x16_xdma_base_1-0|HOST[0],0,
+PLRAM_DEVICE,all,1,
+HBM_DEVICE,all,1,
+KDMA_DEVICE,all,0,
+P2P_DEVICE,all,0,
+KERNEL_COUNT,krnl_vadd_rtl,1,
+TRACE_MEMORY,all,FIFO,
+PLRAM_SIZE_BYTES,xilinx_u280_gen3x16_xdma_base_1-0,0,
+TRACE_BUFFER_FULL,xilinx_u280_gen3x16_xdma_base_1-0,false
+MEMORY_TYPE_BIT_WIDTH,xilinx_u280_gen3x16_xdma_base_1-0|HBM,256,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u280_gen3x16_xdma_base_1-0|DDR,512,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u280_gen3x16_xdma_base_1-0|PLRAM,512,
+APPLICATION_RUN_TIME_MS,all,10308.9,
+MIGRATE_MEM,host,2,
+P2P_HOST_TRANSFERS,host,0,
+OBJECTS_RELEASED,all,1,
+CU_CONTEXT_EN,all,0,
+MAX_PARALLEL_KERNEL_ENQUEUES,krnl_vadd_rtl,1,
+COMMAND_QUEUE_OOO,35316448,0,
+KERNEL_BUFFER_INFO,krnl_vadd_rtl|a|HBM[0]|1,1024,
+KERNEL_BUFFER_INFO,krnl_vadd_rtl|b|HBM[0]|1,1024,
+KERNEL_BUFFER_INFO,krnl_vadd_rtl|c|HBM[0]|1,1024,
+BUFFER_RD_ACTIVE_TIME_MS,all,0.050191,
+BUFFER_WR_ACTIVE_TIME_MS,all,0.076452,
+BUFFER_TX_ACTIVE_TIME_MS,all,0.41966,
+TOTAL_KERNEL_RUN_TIME_MS,all,0,
+XRT_INI_SETTING,opencl_summary,0,Generation of OpenCL summary report (deprecated)
+XRT_INI_SETTING,opencl_trace,1,Generation of trace of OpenCL APIs and memory transfers
+XRT_INI_SETTING,opencl_device_counter,0,Hardware counters added to OpenCL summary file (deprecated)
+XRT_INI_SETTING,device_counters,1,Hardware counters added to summary file
+XRT_INI_SETTING,host_trace,0,Enable the top level of host trace
+XRT_INI_SETTING,native_xrt_trace,0,Generation of Native XRT API function trace
+XRT_INI_SETTING,xrt_trace,0,Generation of hardware SHIM function trace
+XRT_INI_SETTING,data_transfer_trace,off,Collection of data from PL monitors and added to summary and trace (deprecated)
+XRT_INI_SETTING,device_trace,fine,Collection of data from PL monitors and added to summary and trace
+XRT_INI_SETTING,power_profile,0,Polling of power data during execution of application
+XRT_INI_SETTING,power_profile_interval_ms,20,Interval for reading power data (in ms)
+XRT_INI_SETTING,stall_trace,off,Enables hardware generation of stalls in compute units
+XRT_INI_SETTING,trace_buffer_size,1M,Size of buffer to allocate for trace (memory offload only)
+XRT_INI_SETTING,verbosity,4,Verbosity level
+XRT_INI_SETTING,continuous_trace,0,Continuous offloading of trace from memory to host
+XRT_INI_SETTING,trace_buffer_offload_interval_ms,10,Interval for reading of device data to host (in ms)
+XRT_INI_SETTING,trace_file_dump_interval_s,5,Interval for dumping files to host (in s)
+XRT_INI_SETTING,lop_trace,0,Generation of lower overhead OpenCL trace. Should not be used with other OpenCL options.
+XRT_INI_SETTING,debug_mode,batch,Debug mode (emulation only)
+XRT_INI_SETTING,aie_trace,0,Generation of AI Engine trace
+XRT_INI_SETTING,aie_trace_buffer_size,8M,Size of buffer to allocate for AI Engine trace
+XRT_INI_SETTING,aie_trace_metrics,functions,Configuration level used for AI Engine trace
+XRT_INI_SETTING,aie_trace_periodic_offload,1,Periodic offloading of aie trace from memory to host
+XRT_INI_SETTING,aie_trace_buffer_offload_interval_ms,10,Interval for reading of device aie trace data to host (in ms)
+XRT_INI_SETTING,aie_trace_file_dump_interval_s,5,Interval for dumping aie trace files to host (in s)
+XRT_INI_SETTING,aie_profile,0,Generation of AI Engine profiling
+XRT_INI_SETTING,aie_profile_interval_us,1000,Interval for reading AI Engine profile counters (in us)
+XRT_INI_SETTING,aie_profile_core_metrics,,Metric set for AI Engine core modules
+XRT_INI_SETTING,aie_profile_memory_metrics,,Metric set for AI Engine memory modules
+XRT_INI_SETTING,aie_profile_interface_metrics,,Metric set for AI Engine interface modules
+XRT_INI_SETTING,aie_status,0,Generation of AI Engine debug/status
+XRT_INI_SETTING,aie_status_interval_us,1000,Interval for reading AI Engine debug/status registers (in us)
+XRT_INI_SETTING,vitis_ai_profile,0,Generation of Vitis AI summary and trace (Vitis AI designs only)
