@@ -1,0 +1,22 @@
+Compute Units: Running Time and Stalls
+Compute Unit, Running Time (us), Intra-Kernel Dataflow Stalls (%), External Memory Stalls (%), External Stream Stalls (%)
+krnl_vadd_1,396.336,0.001,15.757,0.000
+
+Functions: Running Time and Stalls
+Compute Unit, Function, Running Time (us), Intra-Kernel Dataflow Stalls (%), External Memory Stalls (%), External Stream Stalls (%)
+krnl_vadd_1,entry_proc_U0,0.003,0.000,0.000,0.000
+krnl_vadd_1,load_input_U0,396.096,0.000,0.000,0.000
+krnl_vadd_1,load_input_U0/grp_load_input_Pipeline_mem_rd_fu_84,395.856,0.000,0.000,0.000
+krnl_vadd_1,load_input_1_U0,396.096,0.000,0.000,0.000
+krnl_vadd_1,load_input_1_U0/grp_load_input_1_Pipeline_mem_rd_fu_64,395.856,0.000,0.000,0.000
+krnl_vadd_1,compute_add_U0,396.099,0.000,0.000,0.000
+krnl_vadd_1,compute_add_U0/grp_compute_add_Pipeline_execute_fu_52,396.093,0.000,0.000,0.000
+krnl_vadd_1,store_result_U0,396.333,0.001,15.757,0.000
+krnl_vadd_1,store_result_U0/grp_store_result_Pipeline_mem_wr_fu_75,396.093,0.000,15.757,0.000
+
+Compute Units: Port Data Transfer
+Compute Unit, Port, Write Time (us), Outstanding Write (%), Read Time (us), Outstanding Read (%)
+krnl_vadd_1,m_axi_gmem0,0.000,0.000,0.000,0.000
+krnl_vadd_1,m_axi_gmem1,0.000,0.000,0.000,0.000
+krnl_vadd_1,m_axi_gmem2,0.000,0.000,0.000,0.000
+

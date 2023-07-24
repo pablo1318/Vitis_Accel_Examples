@@ -1,0 +1,129 @@
+/*
+
+Xilinx Vitis Analyzer v2022.2 (64-bit) [Major: 2022, Minor: 2]
+SW Build: 3671981 on Fri Oct 14 04:59:54 MDT 2022
+
+Process ID (PID): 31392
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Jul 24 19:57:42 CEST 2023
+Time zone: 	Central European Standard Time (Europe/Madrid)
+
+OS: CentOS Linux release 7.9.2009 (Core)
+OS Version: 3.10.0-1160.80.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 48
+
+Display: gpu31:04
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/fast/eda/xilinx/Vitis/2022.2/tps/lnx64/jre11.0.11_9
+Java executable: 	/fast/eda/xilinx/Vitis/2022.2/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	pcabra
+User home directory: /home/gaz/pcabra
+User working directory: /home/gaz/pcabra/Vitis_Accel_Examples/cpp_kernels/simple_vadd_vector_multibank_stream
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /fast/eda/xilinx/Vitis
+HDI_APPROOT: /eda/xilinx/Vitis/2022.2
+RDI_DATADIR: /fast/eda/xilinx/Vitis/2022.2/data
+RDI_BINDIR: /fast/eda/xilinx/Vitis/2022.2/bin
+
+Vitis Analyzer preferences file: /home/gaz/pcabra/.Xilinx/vitis_analyzer/2022.2/vitis_analyzer.xml
+Vitis Analyzer preferences directory: /home/gaz/pcabra/.Xilinx/vitis_analyzer/2022.2/
+Vitis Analyzer layouts directory: /home/gaz/pcabra/.Xilinx/vitis_analyzer/2022.2/data/layouts
+PlanAhead jar file: 	/fast/eda/xilinx/Vitis/2022.2/lib/classes/frank.jar
+Vitis Analyzer log file: 	/home/gaz/pcabra/Vitis_Accel_Examples/cpp_kernels/simple_vadd_vector_multibank_stream/vitis_analyzer.log
+Vitis Analyzer journal file: 	/home/gaz/pcabra/Vitis_Accel_Examples/cpp_kernels/simple_vadd_vector_multibank_stream/vitis_analyzer.jou
+Engine tmp dir: 	./.Xil/vitis_analyzer-31392-gpu31
+
+Xilinx Environment Variables
+----------------------------
+RDI_APPROOT: /eda/xilinx/Vitis/2022.2
+RDI_BASEROOT: /eda/xilinx/Vitis
+RDI_BINROOT: /eda/xilinx/Vitis/2022.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /eda/xilinx/Vitis/2022.2/data
+RDI_EXECCLASS: ui/Frank
+RDI_INSTALLROOT: /eda/xilinx
+RDI_INSTALLVER: 2022.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 11.0.11_9
+RDI_LIBDIR: /eda/xilinx/Vitis/2022.2/lib/lnx64.o/Default:/eda/xilinx/Vitis/2022.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /eda/xilinx/Vitis/2022.2/bin
+RDI_PROG: /eda/xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/vitis_analyzer
+RDI_TPS_ROOT: /eda/xilinx/Vivado/2022.2/tps/lnx64
+RDI_USE_JDK11: 1
+XILINX_DSP: 
+XILINX_HLS: /eda/xilinx/Vitis_HLS/2022.2
+XILINX_PLANAHEAD: /eda/xilinx/Vitis/2022.2
+XILINX_SDK: /eda/xilinx/Vitis/2022.2
+XILINX_VITIS: /eda/xilinx/Vitis/2022.2
+XILINX_VIVADO: /eda/xilinx/Vivado/2022.2
+XILINX_VIVADO_HLS: /eda/xilinx/Vivado/2022.2
+XILINX_XRT: /opt/xilinx/xrt
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 5,206 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Vitis Analyzer Command Line Arguments: xrt.run_summary
+dismissDialog("Open Files"); // bq
+// Tcl Command: 'create_project dummy'
+// TclEventType: PROJECT_NEW
+// Opening Summary: Resource{value=FrankResource.FrankReportHolderType_RUN_SUMMARY}Type{value=RUN_SUMMARY},SummaryFile{file=/home/gaz/pcabra/Vitis_Accel_Examples/cpp_kernels/simple_vadd_vector_multibank_stream/xrt.run_summary}
+// Command working directory: /tmp/vitis_analyzer_pcabra10659232341659925676/6754790
+// Command: /fast/eda/xilinx/Vitis/2022.2/bin/vp_analyze profile -o /tmp/vitis_analyzer_pcabra10659232341659925676/6754790/profile_summary.pb -i /home/gaz/pcabra/Vitis_Accel_Examples/cpp_kernels/simple_vadd_vector_multibank_stream/summary.csv
+// Tcl Message: create_project dummy 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,216 MB. GUI used memory: 60 MB. Current time: 7/24/23, 7:57:43 PM CEST
+// Command elapsed time: 10.9s seconds
+// Elapsed time: 11 seconds
+dismissDialog("Open Summary"); // bq
+// [GUI Memory]: 95 MB (+96992kb) [00:00:15]
+// [Engine Memory]: 5,218 MB (+5320116kb) [00:00:15]
+selectButton(FrankResource.FrankSummaryContainer_GUIDANCE, "Run Guidance"); // q
+// Opening Report: Resource{value=FrankResource.FrankViewType_RUN_GUIDANCE}Type{value=RUN_GUIDANCE_REPORT},SummaryFile{file=xrt.run_summary isArchive=false},ReportFile{file=simple_vadd_vector_multibank_stream/summary.csv}
+dismissDialog("Open Run Guidance Report [xrt.run_summary]"); // bq
+selectTree(FrankResource.ReportNavigatorTreePanel_REPORT_NAVIGATOR_TREE, "[root, Resource{value=FrankResource.FrankViewType_SYSTEM_DIAGRAM}Type{value=SYSTEM_DIAGRAM_REPORT},SummaryFile{file=xrt.run_summary isArchive=false}]", 2, false); // b
+// Opening Report: Resource{value=FrankResource.FrankViewType_SYSTEM_DIAGRAM}Type{value=SYSTEM_DIAGRAM_REPORT},SummaryFile{file=xrt.run_summary isArchive=false}
+selectTree(FrankResource.ReportNavigatorTreePanel_REPORT_NAVIGATOR_TREE, "[root, Resource{value=FrankResource.FrankViewType_PLATFORM_DIAGRAM}Type{value=PLATFORM_DIAGRAM_REPORT},SummaryFile{file=xrt.run_summary isArchive=false}]", 3, false); // b
+// Opening Report: Resource{value=FrankResource.FrankViewType_PLATFORM_DIAGRAM}Type{value=PLATFORM_DIAGRAM_REPORT},SummaryFile{file=xrt.run_summary isArchive=false}
+selectTree(FrankResource.ReportNavigatorTreePanel_REPORT_NAVIGATOR_TREE, "[root, Resource{value=FrankResource.FrankViewType_PROFILE_SUMMARY}Type{value=PROFILE_SUMMARY_REPORT},SummaryFile{file=xrt.run_summary isArchive=false},ReportFile{file=simple_vadd_vector_multibank_stream/summary.csv}]", 5, false); // b
+// Opening Report: Resource{value=FrankResource.FrankViewType_PROFILE_SUMMARY}Type{value=PROFILE_SUMMARY_REPORT},SummaryFile{file=xrt.run_summary isArchive=false},ReportFile{file=simple_vadd_vector_multibank_stream/summary.csv}
+// [GUI Memory]: 102 MB (+2036kb) [00:00:29]
+selectTree(RDIResource.NavigableReportTab_REPORT_NAVIGATION_TREE, "[Report Contents, Kernel Data Transfers, Kernel Transfer]", 7, false); // bD
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 11 seconds
+selectTree(FrankResource.ReportNavigatorTreePanel_REPORT_NAVIGATOR_TREE, "[root, Resource{value=FrankResource.FrankViewType_RUN_SUMMARY}Type{value=RUN_SUMMARY_REPORT},SummaryFile{file=xrt.run_summary isArchive=false},ReportFile{file=simple_vadd_vector_multibank_stream/xrt.run_summary}]", 1, false); // b
+selectButton(FrankResource.FrankSummaryContainer_GUIDANCE, "Run Guidance"); // q
+// Elapsed time: 53 seconds
+selectTreeTable(FrankResource.GuidanceTreeTablePanel_GUIDANCE_TREE_TABLE, "MEMORY_READ_TRANSFER_UTIL ; >= 5.000 ; 0.000 ; Memory HBM[0:3] read utilization was 0.000% on device xilinx_u280_gen3x16_xdma_base_1-0. ; Improve kernel memory read efficiency to memories. Click here.", 5, "Improve kernel memory read efficiency to memories. Click here.", 4, true); // C.c - Node
+selectTreeTable(FrankResource.GuidanceTreeTablePanel_GUIDANCE_TREE_TABLE, "HOST_READ_TRANSFER_UTIL ; >= 70.000 ; 26.232 ; Host read bandwidth utilization was 26.232%. ; Improve efficiency of host read transfers. Click here.", 9, "Improve efficiency of host read transfers. Click here.", 4, false); // C.c
+selectTreeTable(FrankResource.GuidanceTreeTablePanel_GUIDANCE_TREE_TABLE, "HOST_READ_TRANSFER_UTIL ; >= 70.000 ; 26.232 ; Host read bandwidth utilization was 26.232%. ; Improve efficiency of host read transfers. Click here.", 9, "Improve efficiency of host read transfers. Click here.", 4, false); // C.c
+openHTML ("https://www.xilinx.com/cgi-bin/docs/rdoc?t=vitis+guidance;v=2022.2;d=HOST_READ_TRANSFER_UTIL.html");u
+selectButton(RDIResource.HPopupTitle_CLOSE, (String) null); // j
+selectTreeTable(FrankResource.GuidanceTreeTablePanel_GUIDANCE_TREE_TABLE, "KERNEL_READ_TRANSFER_AMOUNT_MAX ; <= 2.000 ; 3.200 ; Total kernel read of 6.400000 MB on xilinx_u280_gen3x16_xdma_base_1-0 was 320.000% of host data. ; Re-use data with local or private memories. Click here.", 3, "Re-use data with local or private memories. Click here.", 4, false); // C.c
+selectTreeTable(FrankResource.GuidanceTreeTablePanel_GUIDANCE_TREE_TABLE, "KERNEL_READ_TRANSFER_AMOUNT_MAX ; <= 2.000 ; 3.200 ; Total kernel read of 6.400000 MB on xilinx_u280_gen3x16_xdma_base_1-0 was 320.000% of host data. ; Re-use data with local or private memories. Click here.", 3, "Re-use data with local or private memories. Click here.", 4, false); // C.c

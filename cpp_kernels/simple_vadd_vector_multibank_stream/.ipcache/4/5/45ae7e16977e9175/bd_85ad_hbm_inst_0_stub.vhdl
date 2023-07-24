@@ -1,0 +1,175 @@
+-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-- --------------------------------------------------------------------------------
+-- Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+-- Date        : Thu Jul 13 20:49:53 2023
+-- Host        : gpu31 running 64-bit CentOS Linux release 7.9.2009 (Core)
+-- Command     : write_vhdl -force -mode synth_stub -rename_top decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix -prefix
+--               decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_ bd_85ad_hbm_inst_0_stub.vhdl
+-- Design      : bd_85ad_hbm_inst_0
+-- Purpose     : Stub declaration of top-level module interface
+-- Device      : xcu280-fsvh2892-2L-e
+-- --------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix is
+  Port ( 
+    HBM_REF_CLK_0 : in STD_LOGIC;
+    AXI_00_ACLK : in STD_LOGIC;
+    AXI_00_ARESET_N : in STD_LOGIC;
+    AXI_00_ARADDR : in STD_LOGIC_VECTOR ( 32 downto 0 );
+    AXI_00_ARBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_00_ARID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_00_ARLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    AXI_00_ARSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    AXI_00_ARVALID : in STD_LOGIC;
+    AXI_00_AWADDR : in STD_LOGIC_VECTOR ( 32 downto 0 );
+    AXI_00_AWBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_00_AWID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_00_AWLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    AXI_00_AWSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    AXI_00_AWVALID : in STD_LOGIC;
+    AXI_00_RREADY : in STD_LOGIC;
+    AXI_00_BREADY : in STD_LOGIC;
+    AXI_00_WDATA : in STD_LOGIC_VECTOR ( 255 downto 0 );
+    AXI_00_WLAST : in STD_LOGIC;
+    AXI_00_WSTRB : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_00_WDATA_PARITY : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_00_WVALID : in STD_LOGIC;
+    AXI_04_ACLK : in STD_LOGIC;
+    AXI_04_ARESET_N : in STD_LOGIC;
+    AXI_04_ARADDR : in STD_LOGIC_VECTOR ( 32 downto 0 );
+    AXI_04_ARBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_04_ARID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_04_ARLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    AXI_04_ARSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    AXI_04_ARVALID : in STD_LOGIC;
+    AXI_04_AWADDR : in STD_LOGIC_VECTOR ( 32 downto 0 );
+    AXI_04_AWBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_04_AWID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_04_AWLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    AXI_04_AWSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    AXI_04_AWVALID : in STD_LOGIC;
+    AXI_04_RREADY : in STD_LOGIC;
+    AXI_04_BREADY : in STD_LOGIC;
+    AXI_04_WDATA : in STD_LOGIC_VECTOR ( 255 downto 0 );
+    AXI_04_WLAST : in STD_LOGIC;
+    AXI_04_WSTRB : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_04_WDATA_PARITY : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_04_WVALID : in STD_LOGIC;
+    AXI_05_ACLK : in STD_LOGIC;
+    AXI_05_ARESET_N : in STD_LOGIC;
+    AXI_05_ARADDR : in STD_LOGIC_VECTOR ( 32 downto 0 );
+    AXI_05_ARBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_05_ARID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_05_ARLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    AXI_05_ARSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    AXI_05_ARVALID : in STD_LOGIC;
+    AXI_05_AWADDR : in STD_LOGIC_VECTOR ( 32 downto 0 );
+    AXI_05_AWBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_05_AWID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_05_AWLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    AXI_05_AWSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    AXI_05_AWVALID : in STD_LOGIC;
+    AXI_05_RREADY : in STD_LOGIC;
+    AXI_05_BREADY : in STD_LOGIC;
+    AXI_05_WDATA : in STD_LOGIC_VECTOR ( 255 downto 0 );
+    AXI_05_WLAST : in STD_LOGIC;
+    AXI_05_WSTRB : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_05_WDATA_PARITY : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_05_WVALID : in STD_LOGIC;
+    AXI_08_ACLK : in STD_LOGIC;
+    AXI_08_ARESET_N : in STD_LOGIC;
+    AXI_08_ARADDR : in STD_LOGIC_VECTOR ( 32 downto 0 );
+    AXI_08_ARBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_08_ARID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_08_ARLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    AXI_08_ARSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    AXI_08_ARVALID : in STD_LOGIC;
+    AXI_08_AWADDR : in STD_LOGIC_VECTOR ( 32 downto 0 );
+    AXI_08_AWBURST : in STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_08_AWID : in STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_08_AWLEN : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    AXI_08_AWSIZE : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    AXI_08_AWVALID : in STD_LOGIC;
+    AXI_08_RREADY : in STD_LOGIC;
+    AXI_08_BREADY : in STD_LOGIC;
+    AXI_08_WDATA : in STD_LOGIC_VECTOR ( 255 downto 0 );
+    AXI_08_WLAST : in STD_LOGIC;
+    AXI_08_WSTRB : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_08_WDATA_PARITY : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_08_WVALID : in STD_LOGIC;
+    APB_0_PWDATA : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    APB_0_PADDR : in STD_LOGIC_VECTOR ( 21 downto 0 );
+    APB_0_PCLK : in STD_LOGIC;
+    APB_0_PENABLE : in STD_LOGIC;
+    APB_0_PRESET_N : in STD_LOGIC;
+    APB_0_PSEL : in STD_LOGIC;
+    APB_0_PWRITE : in STD_LOGIC;
+    AXI_00_ARREADY : out STD_LOGIC;
+    AXI_00_AWREADY : out STD_LOGIC;
+    AXI_00_RDATA_PARITY : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_00_RDATA : out STD_LOGIC_VECTOR ( 255 downto 0 );
+    AXI_00_RID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_00_RLAST : out STD_LOGIC;
+    AXI_00_RRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_00_RVALID : out STD_LOGIC;
+    AXI_00_WREADY : out STD_LOGIC;
+    AXI_00_BID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_00_BRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_00_BVALID : out STD_LOGIC;
+    AXI_04_ARREADY : out STD_LOGIC;
+    AXI_04_AWREADY : out STD_LOGIC;
+    AXI_04_RDATA_PARITY : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_04_RDATA : out STD_LOGIC_VECTOR ( 255 downto 0 );
+    AXI_04_RID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_04_RLAST : out STD_LOGIC;
+    AXI_04_RRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_04_RVALID : out STD_LOGIC;
+    AXI_04_WREADY : out STD_LOGIC;
+    AXI_04_BID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_04_BRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_04_BVALID : out STD_LOGIC;
+    AXI_05_ARREADY : out STD_LOGIC;
+    AXI_05_AWREADY : out STD_LOGIC;
+    AXI_05_RDATA_PARITY : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_05_RDATA : out STD_LOGIC_VECTOR ( 255 downto 0 );
+    AXI_05_RID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_05_RLAST : out STD_LOGIC;
+    AXI_05_RRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_05_RVALID : out STD_LOGIC;
+    AXI_05_WREADY : out STD_LOGIC;
+    AXI_05_BID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_05_BRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_05_BVALID : out STD_LOGIC;
+    AXI_08_ARREADY : out STD_LOGIC;
+    AXI_08_AWREADY : out STD_LOGIC;
+    AXI_08_RDATA_PARITY : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_08_RDATA : out STD_LOGIC_VECTOR ( 255 downto 0 );
+    AXI_08_RID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_08_RLAST : out STD_LOGIC;
+    AXI_08_RRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_08_RVALID : out STD_LOGIC;
+    AXI_08_WREADY : out STD_LOGIC;
+    AXI_08_BID : out STD_LOGIC_VECTOR ( 5 downto 0 );
+    AXI_08_BRESP : out STD_LOGIC_VECTOR ( 1 downto 0 );
+    AXI_08_BVALID : out STD_LOGIC;
+    APB_0_PRDATA : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    APB_0_PREADY : out STD_LOGIC;
+    APB_0_PSLVERR : out STD_LOGIC;
+    apb_complete_0 : out STD_LOGIC;
+    DRAM_0_STAT_CATTRIP : out STD_LOGIC;
+    DRAM_0_STAT_TEMP : out STD_LOGIC_VECTOR ( 6 downto 0 )
+  );
+
+end decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix;
+
+architecture stub of decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix is
+attribute syn_black_box : boolean;
+attribute black_box_pad_pin : string;
+attribute syn_black_box of stub : architecture is true;
+attribute black_box_pad_pin of stub : architecture is "HBM_REF_CLK_0,AXI_00_ACLK,AXI_00_ARESET_N,AXI_00_ARADDR[32:0],AXI_00_ARBURST[1:0],AXI_00_ARID[5:0],AXI_00_ARLEN[3:0],AXI_00_ARSIZE[2:0],AXI_00_ARVALID,AXI_00_AWADDR[32:0],AXI_00_AWBURST[1:0],AXI_00_AWID[5:0],AXI_00_AWLEN[3:0],AXI_00_AWSIZE[2:0],AXI_00_AWVALID,AXI_00_RREADY,AXI_00_BREADY,AXI_00_WDATA[255:0],AXI_00_WLAST,AXI_00_WSTRB[31:0],AXI_00_WDATA_PARITY[31:0],AXI_00_WVALID,AXI_04_ACLK,AXI_04_ARESET_N,AXI_04_ARADDR[32:0],AXI_04_ARBURST[1:0],AXI_04_ARID[5:0],AXI_04_ARLEN[3:0],AXI_04_ARSIZE[2:0],AXI_04_ARVALID,AXI_04_AWADDR[32:0],AXI_04_AWBURST[1:0],AXI_04_AWID[5:0],AXI_04_AWLEN[3:0],AXI_04_AWSIZE[2:0],AXI_04_AWVALID,AXI_04_RREADY,AXI_04_BREADY,AXI_04_WDATA[255:0],AXI_04_WLAST,AXI_04_WSTRB[31:0],AXI_04_WDATA_PARITY[31:0],AXI_04_WVALID,AXI_05_ACLK,AXI_05_ARESET_N,AXI_05_ARADDR[32:0],AXI_05_ARBURST[1:0],AXI_05_ARID[5:0],AXI_05_ARLEN[3:0],AXI_05_ARSIZE[2:0],AXI_05_ARVALID,AXI_05_AWADDR[32:0],AXI_05_AWBURST[1:0],AXI_05_AWID[5:0],AXI_05_AWLEN[3:0],AXI_05_AWSIZE[2:0],AXI_05_AWVALID,AXI_05_RREADY,AXI_05_BREADY,AXI_05_WDATA[255:0],AXI_05_WLAST,AXI_05_WSTRB[31:0],AXI_05_WDATA_PARITY[31:0],AXI_05_WVALID,AXI_08_ACLK,AXI_08_ARESET_N,AXI_08_ARADDR[32:0],AXI_08_ARBURST[1:0],AXI_08_ARID[5:0],AXI_08_ARLEN[3:0],AXI_08_ARSIZE[2:0],AXI_08_ARVALID,AXI_08_AWADDR[32:0],AXI_08_AWBURST[1:0],AXI_08_AWID[5:0],AXI_08_AWLEN[3:0],AXI_08_AWSIZE[2:0],AXI_08_AWVALID,AXI_08_RREADY,AXI_08_BREADY,AXI_08_WDATA[255:0],AXI_08_WLAST,AXI_08_WSTRB[31:0],AXI_08_WDATA_PARITY[31:0],AXI_08_WVALID,APB_0_PWDATA[31:0],APB_0_PADDR[21:0],APB_0_PCLK,APB_0_PENABLE,APB_0_PRESET_N,APB_0_PSEL,APB_0_PWRITE,AXI_00_ARREADY,AXI_00_AWREADY,AXI_00_RDATA_PARITY[31:0],AXI_00_RDATA[255:0],AXI_00_RID[5:0],AXI_00_RLAST,AXI_00_RRESP[1:0],AXI_00_RVALID,AXI_00_WREADY,AXI_00_BID[5:0],AXI_00_BRESP[1:0],AXI_00_BVALID,AXI_04_ARREADY,AXI_04_AWREADY,AXI_04_RDATA_PARITY[31:0],AXI_04_RDATA[255:0],AXI_04_RID[5:0],AXI_04_RLAST,AXI_04_RRESP[1:0],AXI_04_RVALID,AXI_04_WREADY,AXI_04_BID[5:0],AXI_04_BRESP[1:0],AXI_04_BVALID,AXI_05_ARREADY,AXI_05_AWREADY,AXI_05_RDATA_PARITY[31:0],AXI_05_RDATA[255:0],AXI_05_RID[5:0],AXI_05_RLAST,AXI_05_RRESP[1:0],AXI_05_RVALID,AXI_05_WREADY,AXI_05_BID[5:0],AXI_05_BRESP[1:0],AXI_05_BVALID,AXI_08_ARREADY,AXI_08_AWREADY,AXI_08_RDATA_PARITY[31:0],AXI_08_RDATA[255:0],AXI_08_RID[5:0],AXI_08_RLAST,AXI_08_RRESP[1:0],AXI_08_RVALID,AXI_08_WREADY,AXI_08_BID[5:0],AXI_08_BRESP[1:0],AXI_08_BVALID,APB_0_PRDATA[31:0],APB_0_PREADY,APB_0_PSLVERR,apb_complete_0,DRAM_0_STAT_CATTRIP,DRAM_0_STAT_TEMP[6:0]";
+attribute X_CORE_INFO : string;
+attribute X_CORE_INFO of stub : architecture is "hbm_v1_0_13,Vivado 2022.2";
+begin
+end;
